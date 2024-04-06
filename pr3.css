@@ -96,13 +96,6 @@ label[for=btn] {
 
 
 
-
-
-
-
-
-
-
 .arms {
 	position: absolute;
 	width: 200%;
@@ -111,13 +104,6 @@ label[for=btn] {
 	overflow: hidden;
 	right: -50%;
 }
-
-
-
-
-
-
-
 
 
 
@@ -191,14 +177,6 @@ label[for=btn] {
 }
 
 
-
-
-
-
-
-
-
-
 @keyframes catch {
 	0% { right: -8%;}
 	25%, 33% { right: 25%; }
@@ -217,17 +195,6 @@ label[for=btn] {
 #btn:not(:checked) + label .arms .arm-human {
 	animation: catch 1.5s var(--ttf) 0s reverse;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -392,23 +359,6 @@ label[for=btn] {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 label[for=btn]:before,
 label[for=btn]:after{
 	--on: #121212;
@@ -437,31 +387,6 @@ label[for=btn]:after {
 
 
 
-
-
-
-
-
-
-
-
-
-/*
-.thumb * {
-max-width: 0;
-left: 0;
-overflow: hidden;
-width: 100%;
-height: 100%;
-position: absolute;
-bottom: 0vmin;
-transition: max-width 0.5s ease-in-out 0.5s;
-}
-
-#btn:checked + label .thumb * {
-max-width: 100%;
-}
-*/
 
 .thumb,
 #btn:checked + label .thumb {
@@ -565,17 +490,6 @@ max-width: 100%;
 	transform: rotate(-14deg);
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .nose {
 	filter: drop-shadow(0.1vmin 0.2vmin 0.3vmin #fff) drop-shadow(0.1vmin 0.5vmin 1vmin #000);
 }
@@ -599,18 +513,6 @@ max-width: 100%;
 	transform: rotate(-22deg);
 	margin-left: 1.25vmin;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .mouth {
